@@ -20,16 +20,9 @@
 <Style>
 
 .font-manrope{
-  font-family: "Manrope", sans-serif;
-    
+  font-family: "Manrope", sans-serif;  
 }
-
 </Style>
-
-
-
-
-
 
 <!--------------- Tailwind cdn ------------------>
 
@@ -63,8 +56,7 @@
 <body class="font-manrope">
     <header class="md:container mx-auto banner-bg">
       <!---------------------------- navbar section---------------------->
-      
-
+     
       <nav class="">
         <div class="navbar bg-base-100 ">
           <div class="navbar-start">
@@ -118,9 +110,6 @@
         </div>
       </nav> 
 
-
-
-
       <!---------------------------- banner Section -------------------------->
       <section class="md:container mx-auto text-center my-6">
         <div class="mx-auto py-4">
@@ -136,15 +125,11 @@
         </div>
      </section>
 
-
-
-
     </header>
-
     <main>
       <!-- ------------------------About Section--------- ---------------------->
       <Section class="md:container mx-auto my-10 bg-banner-bg lg:flex gap-1">
-        <div class="lg:p-24 lg:w-[50%] py-2">
+        <div class="lg:p-24 lg:w-[50%] py-2 mx-auto items-center justify-center">
           <img src="assets/Vector.png" class=" ml-[-50px] hidden md:block" alt="">
           <button class="bg-white rounded-full py-2 px-2 pl-3 pr-3 my-4 block mx-auto md:mx-0"><i class="fa-solid fa-arrow-right"></i> About Us</button>
           <h2 class="text-center lg:text-3xl font-bold text-3xl">We design thoughtful, <br> liveable spaces</h2>
@@ -169,7 +154,6 @@
         </div>
 
       </Section>
-
 
 <!-- -------------------------Works Process Section ------------------------------>
       <Section class="md:container mx-auto my-10 bg-banner-bg">
@@ -235,7 +219,6 @@
 
           </div>
 
-
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center justify-center rounded-2xl w-1/2 mx-auto mt-5 pl-3">
               <div><img src="assets/img3.png" class="pr-2" alt="">
               </div>
@@ -251,9 +234,9 @@
       </section>
 
       <!--------------------- Let’s Discuss Next Project Section------------------------- -->
-      <Section class="md:container mx-auto my-10">
+      <Section style="background-image: url(assets/bg.jpg);" class="my-10 bg-no-repeat bg-cover">
         <div class=" text-center">
-            <button class=" btn bg-buttton2-bg rounded-full py-2 px-2 pl-3 pr-3 my-4 text-black"> <i class="fa-solid fa-arrow-right-long"></i> Let’s Connect</button>
+            <button class="btn bg-buttton2-bg rounded-full py-2 px-2 pl-3 pr-3 my-4 mt-20 text-black"> <i class="fa-solid fa-arrow-right-long"></i> Let’s Connect</button>
             <h2 class="text-center lg:text-4xl font-bold text-3xl my-2">Let’s Discuss Next Project</h2>
             <p class=" w-3/5 text-center mx-auto my-4 text-base">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
         </div>
@@ -262,31 +245,31 @@
         <div class="flex items-center justify-center">
           <form class="">
             <label for="first Name">
-              <input type="text" class="bg-buttton2-bg h-10 w-[350px] rounded-full pl-5 outline-none" name="" id="first Name" placeholder="First Name*">
+              <input type="text" class="h-10 w-[350px] rounded-full pl-5 outline-none" name="" id="first Name" placeholder="First Name*">
             </label>
 
 
 
             <label for="last Name">
-              <input type="text" class="bg-buttton2-bg h-10 w-[350px] rounded-full pl-5 mx-3 mt-5 outline-none" name="" id="last Name" placeholder="Last Name*">
+              <input type="text" class="h-10 w-[350px] rounded-full pl-5 mx-3 mt-5 outline-none" name="" id="last Name" placeholder="Last Name*">
             </label>
             <br>
             <label for="phone Number">
-              <input type="text" name="" class="bg-buttton2-bg h-10 w-[350px] rounded-full my-4 pl-5 outline-none" id="phone Number" placeholder="Phone Number*">
+              <input type="text" name="" class="h-10 w-[350px] rounded-full my-4 pl-5 outline-none" id="phone Number" placeholder="Phone Number*">
             </label>
             <label for="email Number">
-              <input type="email" name="" class="bg-buttton2-bg h-10 w-[350px] rounded-full my-5 pl-5 mx-3 outline-none" id="email Number" placeholder="Email Number*">
+              <input type="email" name="" class="h-10 w-[350px] rounded-full my-5 pl-5 mx-3 outline-none" id="email Number" placeholder="Email Number*">
             </label>
             <br>
-            <textarea name="" class="bg-buttton2-bg h-[200px] w-full rounded-xl pt-5 pl-5 outline-none" id="" placeholder="Write your message here"></textarea> 
+            <textarea name="" class="h-[200px] w-full rounded-xl pt-5 pl-5 outline-none" id="" placeholder="Write your message here"></textarea> 
             <br>
-            <button class="btn bg-primari-color text-2xl font-bold hover:bg-primari-color rounded-full my-4 w-full">Send Mail <i class="fa-solid fa-circle-arrow-up rotate-45"></i></button>
+            <button class=" mb-20 btn bg-primari-color text-2xl font-bold hover:bg-primari-color rounded-full my-4 w-full">Send Mail <i class="fa-solid fa-circle-arrow-up rotate-45"></i></button>
           </form>
         </div>
        </Section>
 
 <!--------------------- Meaning full Section------------------------- -->
-    <section class="flex flex-col md:flex-row gap-20 items-center justify-center bg-buttton2-bg pt-20 pb-20">
+    <section class="flex flex-col md:flex-row gap-20 items-center justify-center bg-buttton2-bg pt-20 pb-20 mt-[-40px]">
       <div class="">
         <h2 class="text-black text-4xl font-bold mb-5">Envision Your Home’s <br> Future, Starting With <br> Floor Plan</h2>
         <p class=" text-black text-xl">The Best All-in-One 3d design tool to make <br> your home design come true.</p>
